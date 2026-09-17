@@ -1,12 +1,12 @@
 # Climate Risk AI Advisor
 
-An AI agent that generates climate-risk reports grounded in real historical
-weather data — built to bridge climate science and software engineering.
+An AI agent that generates climate risk reports grounded in real historical
+weather data built to bridge climate science and software engineering.
 
 ## What it does
-Enter any location's coordinates → the agent fetches 15 years of real daily
+Enter any location's coordinates → the agent fetches 15 years of daily
 weather data, runs a statistical trend and anomaly analysis, then uses Gemini
-AI with function-calling to write a structured climate risk report — the same
+AI with function calling to write a structured climate risk report the same
 type of deliverable ESG consulting teams produce for corporate clients.
 
 ## How it works
@@ -43,8 +43,8 @@ copy .env.example .env
 streamlit run app.py
 ```
 
-## What I'd add with more time
-- Multi-location comparison side by side
+## Future Roadmap
+- Multi location comparison side by side
 - Prophet model for future-year projections
 - PDF export for actual ESG filings
 - Integration with carbon emissions API for Scope 1/2/3 estimates
