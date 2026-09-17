@@ -12,11 +12,11 @@ type of deliverable ESG consulting teams produce for corporate clients.
 ## How it works
 1. **Data layer** — fetches daily temperature and rainfall from Open-Meteo API (free, no key needed)
 2. **Analysis layer** — computes yearly trend using linear regression, flags anomalous years using standard deviation
-3. **Agent layer** — Gemini 2.0 Flash with tool-calling autonomously fetches data and runs analysis before writing a grounded report
+3. **Agent layer** — Gemini 3.0 Flash with tool-calling autonomously fetches data and runs analysis before writing a grounded report
 4. **Interface** — Streamlit web app, deployable for free on Streamlit Cloud
 
 ## Tech stack
-Python · pandas · numpy · Google Gemini 2.0 Flash API · Streamlit
+Python · pandas · numpy · Google Gemini 3.0 Flash API · Streamlit
 
 ## Setup
 ```bash
