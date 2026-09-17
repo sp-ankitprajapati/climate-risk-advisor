@@ -29,7 +29,7 @@ Python · pandas · numpy · Google Gemini 3.0 Flash API · Streamlit
 ---
 ### Clone the Repository & Navigate to Folder
 ```bash
-git clone https://github.com/yourusername/climate-risk-advisor
+git clone https://github.com/sp-ankitprajapati/climate-risk-advisor
 cd climate-risk-advisor
 # Create virtual environment (forcing Python 3.12 if multiple versions are installed)
 py -3.12 -m venv venv
