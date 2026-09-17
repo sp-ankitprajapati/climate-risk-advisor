@@ -19,11 +19,26 @@ type of deliverable ESG consulting teams produce for corporate clients.
 Python · pandas · numpy · Google Gemini 3.0 Flash API · Streamlit
 
 ## Setup
+
+## 🚀 Getting Started
+
+### Prerequisites
+* **Python:** Python 3.10 to 3.12 (Python 3.14 pre-release is not supported due to C++ compilation issues)
+* **API Key:** Free Gemini API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
+
+---
+### Clone the Repository & Navigate to Folder
 ```bash
 git clone https://github.com/yourusername/climate-risk-advisor
 cd climate-risk-advisor
+# Create virtual environment (forcing Python 3.12 if multiple versions are installed)
+py -3.12 -m venv venv
+
+# Activate virtual environment
+venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env
+
+copy .env.example .env
 # Add your free Gemini API key from https://aistudio.google.com
 streamlit run app.py
 ```
